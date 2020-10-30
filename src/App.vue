@@ -3,9 +3,10 @@
     <Navigation/>
     <Home />
     <AboutMe/>
+    <Skills/>
     <Experience/>
     <Projects/>
-    <Skills/>
+    
   </div>
 </template>
 
@@ -16,10 +17,7 @@ import AboutMe from './components/AboutMe.vue'
 import Experience from './components/Experience.vue'
 import Projects from './components/Projects.vue'
 import Skills from './components/Skills.vue'
-//import AboutMe from './components/AboutMe.vue'
-/*
-\
-import Resume from './components/Resume.vue'*/
+
 export default {
   name: 'App',
   components: {
@@ -29,12 +27,15 @@ export default {
     Experience,
     Projects,
     Skills
-    //Resume,
-    //Projects
+    
+  },
+  mounted:function(){
+    let nav = document.getElementById("navComponent");
+    nav.style.display = 'none';
   }
 }
 </script>
 
 <style>
-@import './assets/styles/styles.css'
+@import './assets/styles/styles.css';
 </style>
