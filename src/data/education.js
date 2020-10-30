@@ -2,6 +2,7 @@ export default [
     {
         school:"Western University",
         location:"London, Ontario",
+        img:"westernlogo.gif",
         degree:"Bachelor of Engineering Science",
         completionDate:"April, 2022",
         specialization:"Software Engineering",

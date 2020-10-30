@@ -3,7 +3,8 @@
     <Navigation/>
     <Home />
     <AboutMe/>
-
+    <Experience/>
+    <Projects/>
   </div>
 </template>
 
@@ -11,8 +12,10 @@
 import Home from './components/Home.vue'
 import Navigation from './components/Navigation.vue'
 import AboutMe from './components/AboutMe.vue'
+import Experience from './components/Experience.vue'
+import Projects from './components/Projects.vue'
 //import AboutMe from './components/AboutMe.vue'
-/*import Experience from './components/Experience.vue'
+/*
 import Skills from './components/Skills.vue'
 import Resume from './components/Resume.vue'*/
 export default {
@@ -20,8 +23,9 @@ export default {
   components: {
     Home,
     Navigation,
-    AboutMe
-    //Experience,
+    AboutMe,
+    Experience,
+    Projects
     //Skills,
     //Resume,
     //Projects
