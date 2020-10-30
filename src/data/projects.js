@@ -4,7 +4,8 @@ export default[
         display: true,
         link: 'https://chrisdevito',
         linkDisplay: 'chrisdevito.com',
-        code: 'https://github.com/michaelddsilva/michaelddsilva.github.io',
+        code: 'https://github.com/cdevito2/my-website',
+        repo:'website code',
         status: 'On Going',
         img: [
             
@@ -18,10 +19,11 @@ export default[
     {
         title: 'PYTHON MAIL CLIENT',
         display: true,
-        link: 'https://chrisdevito',
-        linkDisplay: 'chrisdevito.com',
-        code: 'https://github.com/michaelddsilva/michaelddsilva.github.io',
-        status: 'On Going',
+        link: '',
+        linkDisplay: 'repo',
+        code: 'https://github.com/cdevito2/networkingLabs',
+        repo:'code',
+        status: 'Complete',
         img: [
             
         ],
@@ -35,8 +37,9 @@ export default[
     {
         title: 'Full Stack Web Application',
         display: true,
-        code: 'https://github.com/michaelddsilva/michaelddsilva.github.io',
-        repo: '',
+        link :'',
+        code: 'https://github.com/cdevito2/MEAN-stack-web-app',
+        repo: 'code',
         status: 'Complete',
         img: [
            // 'img/project_images/mongodb.png', 
@@ -59,8 +62,8 @@ export default[
         link: '',
         linkDisplay: '',
         demo: 'https://www.youtube.com/watch?v=z14ogKdjQAg&t=1s',
-        code: 'https://github.com/michaelddsilva/michaelddsilva.github.io',
-        repo: '',
+        code: 'https://github.com/cdevito2/Latesleeper-Android-Application',
+        repo: 'mobile app repo',
         status: 'Complete',
         img: [
             //'img/project_images/android.png', 
@@ -79,11 +82,11 @@ export default[
         display: true,
         link: '',
         linkDisplay: '',
-        code: '',
-        repo: '',
+        code: 'https://github.com/cdevito2/peer2peer-network',
+        repo: 'peer2peerNetwork',
         status: 'Complete',
         img: [
-            ""
+            
         ],
         description: [
             "Created a peer-to-peer network with custom image querying protocols from scratch using TCP sockets",
@@ -96,9 +99,10 @@ export default[
     {
         title: 'Sketchpad Web App',
         display: true,
-        link: '/sketchpad',
-        linkDisplay: 'michaeldsilva.com/sketchpad',
-        code: 'https://github.com/michaelddsilva/sketchpad',
+        link: '',
+        demo:"https://www.youtube.com/watch?v=xsyC6Wywnj4&t=6s",
+        linkDisplay: '',
+        code: 'https://github.com/cdevito2/JavaFX-sketchpad',
         repo: 'sketchpad',
         status: 'Complete',
         img: [

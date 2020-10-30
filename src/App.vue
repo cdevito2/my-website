@@ -5,6 +5,7 @@
     <AboutMe/>
     <Experience/>
     <Projects/>
+    <Skills/>
   </div>
 </template>
 
@@ -14,9 +15,10 @@ import Navigation from './components/Navigation.vue'
 import AboutMe from './components/AboutMe.vue'
 import Experience from './components/Experience.vue'
 import Projects from './components/Projects.vue'
+import Skills from './components/Skills.vue'
 //import AboutMe from './components/AboutMe.vue'
 /*
-import Skills from './components/Skills.vue'
+\
 import Resume from './components/Resume.vue'*/
 export default {
   name: 'App',
@@ -25,8 +27,8 @@ export default {
     Navigation,
     AboutMe,
     Experience,
-    Projects
-    //Skills,
+    Projects,
+    Skills
     //Resume,
     //Projects
   }
@@ -34,12 +36,5 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import './assets/styles/styles.css'
 </style>

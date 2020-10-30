@@ -4,7 +4,7 @@
 			
     <div class="introText">
       <h3>Welcome to my site!</h3>
-      <p>I am a 4th year student at Western University studying Software Engineering</p>
+      <p>I am a 4th year student at Western University studying Software Engineering with experience developing in Linux and Windows environments</p>
       <p>I am currently on a 16 month internship at General Dynamics Mission Systems-Canada</p>
       <p>I am expected to graduate in April 2022</p>
       <p>I made this website as a side project to familiarize myself with Vue</p>

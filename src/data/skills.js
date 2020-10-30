@@ -13,7 +13,7 @@ export default  [
         ]
     },
     {
-        category:"technologies/tools/frameworkds",
+        category:"Technologies/Tools/Frameworkds",
         display:true,
         items:[
             "Terraform",
